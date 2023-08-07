@@ -1,8 +1,7 @@
-local plr = game.Players.LocalPlayer
 local Client = require(game.ReplicatedStorage.Library.Client)
 local Library = require(game.ReplicatedStorage.Library)
 if (not getgenv().hooked) then
-do -- Patching/Hooking
+do
     
         hookfunction(debug.getupvalue(Client.Network.Fire, 1) , function(...) return true end)
         hookfunction(debug.getupvalue(Client.Network.Invoke, 1) , function(...) return true end)
