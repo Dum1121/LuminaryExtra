@@ -2,6 +2,8 @@ local a = 0
 
 getgenv().aw = true
 while getgenv().aw do wait(0.1)
+game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.infoholder.income.TextButton.Visible = false
+game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui.AntiAFK.Visible = false
 local args = {
     [1] = ""..a.."",
     [2] = "59"
