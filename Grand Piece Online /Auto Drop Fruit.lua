@@ -2,7 +2,7 @@
 local dropleg = {"Goro",
     "Paw","Hie","Magu","Zushi",
     "Kage","Pika","Yuki","Suna",
-    "Yami","Mera","Ito","Gura",}
+    "Yami","Mera","Ito","Gura"}
 -- // myth fruit list
 local dropmyth = {"Ope","Mochi","Venom","Tori","Budhha"}
 
