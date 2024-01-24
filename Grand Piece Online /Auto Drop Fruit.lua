@@ -24,11 +24,9 @@ if getgenv().autodropleg then
     		if v:IsA("Tool") and table.find(dropleg,v.Name) then
 	wait(getgenv().droplegdelay)
       game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack[v.Name])
-	wait(0.6)
-	if not game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") and table.find(dropleg,v.Name) then
+	wait(0.2)
 	drop()
-	end
-wait(0.7)
+wait(0.5)
 		end
 	end
 end
@@ -38,11 +36,9 @@ if getgenv().autodropmyth then
     		if v:IsA("Tool") and table.find(dropmyth,v.Name) then
 	wait(getgenv().dropmythdelay)
       game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack[v.Name])
-	wait(0.6)
-	if not game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") and table.find(dropmyth,v.Name) then
+	wait(0.2)
 	drop()
-	end
-wait(0.7)
+wait(0.5)
 		end
 	end
 end
