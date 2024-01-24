@@ -4,7 +4,7 @@ local dropleg = {"Goro",
     "Kage","Pika","Yuki","Suna",
     "Yami","Mera","Ito","Gura"}
 -- // myth fruit list
-local dropmyth = {"Ope","Mochi","Venom","Tori","Budhha"}
+local dropmyth = {"Ope","Mochi","Venom","Tori","Buddha"}
 
 -- function
 if not getgenv().execute then getgenv().execute = true else return end
