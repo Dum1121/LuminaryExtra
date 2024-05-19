@@ -31,4 +31,5 @@ if getgenv().noclipsetup ~= true then
         end)
     end)
     getgenv().noclipsetup = true
+    print("Noclip Setuped!")
 end
