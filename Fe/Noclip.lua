@@ -10,7 +10,7 @@ if getgenv().noclipsetup ~= true then
                     LOL.Transparency = 1
                     LOL.Size = Vector3.new(50,-0.5,50)
                 elseif game:GetService("Workspace"):FindFirstChild("LOL") then
-                    game.Workspace["LOL"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3, 0)
+                    game.Workspace["LOL"].CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0, -3.4, 0)
                 end
             else
                 if game:GetService("Workspace"):FindFirstChild("LOL") then
